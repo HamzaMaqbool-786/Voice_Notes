@@ -1,0 +1,41 @@
+name: voice_notes_app
+description: A voice notes app with speech-to-text, local storage, and dark mode support.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Speech to text
+  speech_to_text: ^7.3.0
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  
+  # UI
+  flutter_slidable: ^3.1.0
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
